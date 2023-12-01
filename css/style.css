@@ -30,11 +30,14 @@ body{
     border-radius: 20px;
     border: none;
     box-shadow: #0f0c29;
-    background: #6190E8;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6b90cf, #2c62c5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #668fd8, #275ec5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    
-    
-
+    background: #6190E8;
+    background: -webkit-linear-gradient(to right, #6b90cf, #2c62c5);  
+    background: linear-gradient(to right, #668fd8, #275ec5); 
   }
+
+     button:hover{
+      border: #0f0c29; 
+      background: #96aace;
+      background: -webkit-linear-gradient(to right, #b1bac9, #6791df);  
+      background: linear-gradient(to right, #bbc9e0, #628fe2); 
+     }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creador de contraseña</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="centro">
+        <div>
+            <h2>Crear Contraseña</h2>
+            <label for="">Ingrese la longitud de la contraseña</label><br>
+            <input type="number" id="cantidad"><br><br>
+            <label for="numeros">Agregar numeros</label><input type="checkbox" id="numeros"><br>
+            <label for="solo">Solo numeros</label><input type="checkbox" id="solo"><br>
+            <label for="symbolos">Agregar symbolos</label><input type="checkbox" id="symbolos"><br>
+            <button id="btnGenerar">Generar la contraseña</button>
+        </div>
+        <div id="contraseña"></div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
